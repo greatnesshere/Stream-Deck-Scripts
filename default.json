@@ -1,0 +1,98 @@
+{
+    "Actions": [
+        {
+            "Actions": [
+                {
+                    "LinkedTitle": true,
+                    "MultiActionDelays": {
+                        "Delay1": 1,
+                        "Delay2": 1
+                    },
+                    "Name": "Hotkey",
+                    "Settings": {
+                        "Coalesce": true,
+                        "Hotkeys": [
+                            {
+                                "KeyCmd": false,
+                                "KeyCtrl": false,
+                                "KeyModifiers": 0,
+                                "KeyOption": false,
+                                "KeyShift": false,
+                                "NativeCode": 122,
+                                "QTKeyCode": 16777264,
+                                "VKeyCode": 122
+                            },
+                            {
+                                "KeyCmd": false,
+                                "KeyCtrl": false,
+                                "KeyModifiers": 0,
+                                "KeyOption": false,
+                                "KeyShift": false,
+                                "NativeCode": -1,
+                                "QTKeyCode": 33554431,
+                                "VKeyCode": -1
+                            },
+                            {
+                                "KeyCmd": false,
+                                "KeyCtrl": false,
+                                "KeyModifiers": 0,
+                                "KeyOption": false,
+                                "KeyShift": false,
+                                "NativeCode": -1,
+                                "QTKeyCode": 33554431,
+                                "VKeyCode": -1
+                            },
+                            {
+                                "KeyCmd": false,
+                                "KeyCtrl": false,
+                                "KeyModifiers": 0,
+                                "KeyOption": false,
+                                "KeyShift": false,
+                                "NativeCode": -1,
+                                "QTKeyCode": 33554431,
+                                "VKeyCode": -1
+                            }
+                        ]
+                    },
+                    "State": 0,
+                    "States": [
+                        {
+                            "Title": "F1"
+                        }
+                    ],
+                    "UUID": "com.elgato.streamdeck.system.hotkey"
+                },
+                {
+                    "LinkedTitle": true,
+                    "MultiActionDelays": {
+                        "Delay1": 1,
+                        "Delay2": 1
+                    },
+                    "Name": "Text",
+                    "Settings": {
+                        "isSendingEnter": true,
+                        "pastedText": "editor.action.blockComment"
+                    },
+                    "State": 0,
+                    "States": [
+                        {}
+                    ],
+                    "UUID": "com.elgato.streamdeck.system.text"
+                }
+            ]
+        },
+        {
+            "Actions": []
+        }
+    ],
+    "LinkedTitle": true,
+    "Name": "Multi Action",
+    "Settings": {},
+    "State": 0,
+    "States": [
+        {
+            "Title": "Block\nComment"
+        }
+    ],
+    "UUID": "com.elgato.streamdeck.multiactions.routine"
+}
