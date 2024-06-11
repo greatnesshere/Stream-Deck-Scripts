@@ -2,3 +2,8 @@ download.sh
 Apple Color Emoji.ttc
 Apple Symbols.ttf
 AppIcon.png
+reset.sh
+.DS_Store
+out
+tmp
+*.scpt

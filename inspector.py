@@ -13,12 +13,12 @@ for f in os.scandir("ProfilesV2"):
         with open(os.path.join(f.path,"manifest.json"))as t:
             k=json.load(t)
             # filter
-            if not k["Name"]=="Test":
-                continue           
+            # if not k["Name"]=="Default":
+            #     continue           
             print(f.name)
             print(" Name:"+k["Name"])
             print(" AppIdentifier:"+(k["AppIdentifier"]if "AppIdentifier"in k else "(None)"))
-            print(" Sub-UUIDS:")
+            print(" Pages:")
         for x in os.scandir(os.path.join(f.path,"Profiles")):
             if x.is_dir():
                 with open(os.path.join(x.path,"manifest.json"))as z:

@@ -1,0 +1,16 @@
+"5,0": {
+                    "ActionID": "ae57add2-8951-463e-a34e-bb2940548269",
+                    "LinkedTitle": true,
+                    "Name": "Open",
+                    "Settings": {
+                        "path": "\"/Users/davidzhao/Stream Deck Scripts/lock_screen.scpt\""
+                    },
+                    "State": 0,
+                    "States": [
+                        {
+                            "Image": "Images/1TW2FB3B0H6BLC627MBJPMI70KZ.png",
+                            "Title": "🔒🖥️"
+                        }
+                    ],
+                    "UUID": "com.elgato.streamdeck.system.open"
+                },

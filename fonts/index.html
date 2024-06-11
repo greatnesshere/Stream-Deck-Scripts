@@ -28,8 +28,9 @@
             const ctx=canvas.getContext("2d");
             const download=document.getElementById("download");
             ctx.font="206px 'Apple Color Emoji', 'Apple Symbols'";
-            ctx.textBaseline="middle";
-            ctx.textAlign="center";
+            // ctx.textBaseline="middle";
+            // ctx.textAlign="center";
+            ctx.textBaseline=""
             const input=document.getElementById("text");
             input.addEventListener("input",function(){
                 ctx.clearRect(0,0,canvas.width,canvas.height);
