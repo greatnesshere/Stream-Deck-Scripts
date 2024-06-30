@@ -1,0 +1,1 @@
+i=$(pgrep -x "Stream Deck");kill $i;while ps $i>/dev/null;do :;done;osascript -e 'activate application "Elgato Stream Deck"' -e 'tell application "System Events" to click button 1 of window 1 of process "Stream Deck"'>/dev/null

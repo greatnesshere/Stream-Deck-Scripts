@@ -1,7 +1,7 @@
 tell application "System Events"
 tell process ((name of processes whose frontmost is true) as text)
-tell menu bar item "File" of menu bar 1
-tell menu item "New Window" of menu 1
+tell menu bar item "Select" of menu bar 1
+tell menu item "Edit in Quick Mask Mode" of menu 1
 click
 end
 end

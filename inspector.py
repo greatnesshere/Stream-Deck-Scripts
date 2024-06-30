@@ -1,7 +1,8 @@
 # Spreadsheet-like editor for Stream Deck buttons
 import os, json
 def is_empty(d):
-    # TODO: folders refer to pages empty page=pinned page
+    # TODO: folders refer to pages empty page=pinned page for most
+    # TODO: folders can contain the subfolders of pages
     # TODO: Images<=>Thumbnails
     # TODO: pages<=>sheets
     if not d["Controllers"][0]["Actions"]:
