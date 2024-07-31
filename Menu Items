@@ -1,0 +1,30 @@
+#!/usr/bin/osascript
+use application "System Events"
+on popped(arr)
+	if length of arr > 1 then
+		return items 2 thru end of arr
+	else
+		return {}
+	end if
+end popped
+on traverseMenuItems(root, path)
+	if path is {} then
+		return root
+	end if
+	if class of root is application process then
+		return my traverseMenuItems(menu bar (item 1 of path) of root, my popped(path))
+	else if class of root is menu bar then
+		return my traverseMenuItems(menu bar item (item 1 of path) of root, my popped(path))
+	else if class of root is menu bar item then
+		return my traverseMenuItems(menu (item 1 of path) of root, my popped(path))
+	else if class of root is menu then
+		return my traverseMenuItems(menu item (item 1 of path) of root, my popped(path))
+	else if class of root is menu item then
+		return my traverseMenuItems(menu (item 1 of path) of root, my popped(path))
+	end if
+end traverseMenuItems
+property MENU_BAR : 1
+property STATUS_BAR : 2
+property name : "Menu Items"
+property id : "com.generic.Menu-Items"
+property version : 1.0

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<array>
+			<integer>1</integer>
+			<string>File</string>
+			<integer>1</integer>
+			<string>Open in Pages</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>Format</string>
+			<integer>1</integer>
+			<string>Text</string>
+			<integer>1</integer>
+			<string>Center</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>Format</string>
+			<integer>1</integer>
+			<string>Text</string>
+			<integer>1</integer>
+			<string>Justify</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>Image</string>
+			<integer>1</integer>
+			<string>Canvas Size...</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>File</string>
+			<integer>1</integer>
+			<string>Export</string>
+			<integer>1</integer>
+			<string>Export As...</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>File</string>
+			<integer>1</integer>
+			<string>Revert</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>Image</string>
+			<integer>1</integer>
+			<string>Image Size...</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>Layer</string>
+			<integer>1</integer>
+			<string>Rasterize</string>
+			<integer>1</integer>
+			<string>Layer</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>Select</string>
+			<integer>1</integer>
+			<string>Select and Mask</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>Edit</string>
+			<integer>1</integer>
+			<string>Transform</string>
+			<integer>1</integer>
+			<string>Rotate</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>Edit</string>
+			<integer>1</integer>
+			<string>Transform</string>
+			<integer>1</integer>
+			<string>Scale</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>View</string>
+			<integer>1</integer>
+			<string>Fit on Screen</string>
+		</array>
+		<array>
+			<integer>1</integer>
+			<string>View</string>
+			<integer>1</integer>
+			<string>Print Size</string>
+		</array>
+	</array>
+</dict>
+</plist>
