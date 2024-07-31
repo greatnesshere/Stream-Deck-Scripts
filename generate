@@ -1,0 +1,2 @@
+#!/bin/zsh
+echo "tell application \"System Events\" to click (script \"Menu Items\")'s traverseMenuItems(first process whose frontmost is true, value of property list item $1 of property list item \"Actions\" of property list file \"$HOME/Library/Scripts/Stream Deck/Actions.plist\")"
